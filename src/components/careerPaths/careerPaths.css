@@ -1,0 +1,34 @@
+.career__paths{
+    padding: 75px 0;
+}
+.career__paths-list{
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.career__paths-link:hover{
+    background-color: transparent;
+    border: 1px solid var(--blue-color);
+}
+.career__paths-link:hover .career__paths-name{
+    color:var(--blue-color);
+}
+.career__paths-image{
+    width: 230px;
+    height: 133px;
+}
+.career__paths-image1{
+    width: 165px;
+    height: 95px;
+}
+.career__paths-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.career__paths-name1{
+    font-size: var(--secondary-size);
+    margin-top: 20px;
+    font-weight: 400;
+    transition: var(--transition);
+}

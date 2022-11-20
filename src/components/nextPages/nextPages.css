@@ -1,0 +1,19 @@
+.next__pages{
+    padding: 40px 0 50px 0;
+}
+.next__pages-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 10px;
+}
+.next__pages-link{
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 3px;
+    transition: var(--transition);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.next__pages-link:hover{
+    background-color: #e9ecef;
+}

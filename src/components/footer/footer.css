@@ -1,0 +1,34 @@
+.footer{
+    padding: 5px 70px;
+    background-color: var(--primary-color);
+}
+.footer__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 0;
+    color: var(--white-color);
+}
+.footer__link{
+    display: flex;
+    gap: 0 30px;
+}
+.footer__link >a{
+    font-size: var(--secondary-size) ;
+    color: var(--white-color);
+    transition: var(--transition);
+}
+.footer__link >a:hover{
+    text-decoration-line: underline;
+}
+.footer__cpr{
+    font-size: var(--menu-size);
+    font-weight: 400;
+}
+.footer__social{
+    font-size: 20px ;
+    display: flex;
+    gap: 0 15px;
+    cursor: pointer;
+    margin-right: 25px
+}
